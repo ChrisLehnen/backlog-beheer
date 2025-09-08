@@ -11,43 +11,43 @@ Een pragmatisch, file-based backlog management systeem voor solo programmeurs. G
 
 ## Documentation Structure
 
-### 📋 Requirements (`/requirements/`)
+### 📋 Requirements (`/backlog/requirements/`)
 Functionele en non-functionele requirements voor het systeem.
 
 | ID | Title | Type | Priority | Epic |
 |----|-------|------|----------|------|
-| [REQ-001](requirements/REQ-001-backlog-management.md) | Backlog Item Management | functional | KRITIEK | EPIC-001 |
-| [REQ-002](requirements/REQ-002-sprint-planning.md) | Sprint Planning & Velocity | functional | HOOG | EPIC-001 |
-| [REQ-003](requirements/REQ-003-dashboard-reporting.md) | Dashboard & Reporting | functional | HOOG | EPIC-002 |
-| [REQ-004](requirements/REQ-004-template-automation.md) | Template System & Automation | functional | HOOG | EPIC-003 |
-| [REQ-005](requirements/REQ-005-search-navigation.md) | Search & Navigation | nonfunctional | GEMIDDELD | EPIC-002 |
-| [REQ-006](requirements/REQ-006-version-control.md) | Version Control & History | nonfunctional | HOOG | EPIC-003 |
+| [REQ-001](backlog/requirements/REQ-001-backlog-management.md) | Backlog Item Management | functional | KRITIEK | EPIC-001 |
+| [REQ-002](backlog/requirements/REQ-002-sprint-planning.md) | Sprint Planning & Velocity | functional | HOOG | EPIC-001 |
+| [REQ-003](backlog/requirements/REQ-003-dashboard-reporting.md) | Dashboard & Reporting | functional | HOOG | EPIC-002 |
+| [REQ-004](backlog/requirements/REQ-004-template-automation.md) | Template System & Automation | functional | HOOG | EPIC-003 |
+| [REQ-005](backlog/requirements/REQ-005-search-navigation.md) | Search & Navigation | nonfunctional | GEMIDDELD | EPIC-002 |
+| [REQ-006](backlog/requirements/REQ-006-version-control.md) | Version Control & History | nonfunctional | HOOG | EPIC-003 |
 
-### 🎯 Epics (`/epics/`)
+### 🎯 Epics (`/backlog/epics/`)
 High-level features en business value.
 
 | ID | Title | Priority | Stories | Points | Status |
 |----|-------|----------|---------|--------|--------|
-| [EPIC-001](epics/EPIC-001-core-backlog-functionality.md) | Core Backlog Functionality | KRITIEK | 5 | 15 | todo |
-| [EPIC-002](epics/EPIC-002-visualization-reporting.md) | Visualization & Reporting | HOOG | 4 | 13 | todo |
-| [EPIC-003](epics/EPIC-003-automation-tooling.md) | Automation & Tooling | GEMIDDELD | 4 | 13 | todo |
+| [EPIC-001](backlog/epics/EPIC-001-core-backlog-functionality.md) | Core Backlog Functionality | KRITIEK | 5 | 15 | todo |
+| [EPIC-002](backlog/epics/EPIC-002-visualization-reporting.md) | Visualization & Reporting | HOOG | 4 | 13 | todo |
+| [EPIC-003](backlog/epics/EPIC-003-automation-tooling.md) | Automation & Tooling | GEMIDDELD | 4 | 13 | todo |
 
-### 📝 User Stories (`/stories/`)
+### 📝 User Stories (`/backlog/stories/`)
 Gedetailleerde implementatie stories met acceptance criteria.
 
 | ID | Title | Epic | Points | Priority | Status |
 |----|-------|------|--------|----------|--------|
-| [US-001](stories/US-001-create-backlog-item.md) | Create New Backlog Item | EPIC-001 | 3 | KRITIEK | todo |
-| [US-002](stories/US-002-prioritize-backlog-items.md) | Prioritize with MoSCoW | EPIC-001 | 2 | HOOG | todo |
-| [US-003](stories/US-003-track-item-status.md) | Track Item Status | EPIC-001 | 2 | KRITIEK | todo |
-| [US-004](stories/US-004-plan-sprint.md) | Plan Sprint | EPIC-001 | 5 | HOOG | todo |
-| [US-005](stories/US-005-calculate-velocity.md) | Calculate Velocity | EPIC-001 | 3 | HOOG | todo |
-| [US-006](stories/US-006-generate-dashboard.md) | Generate Dashboard | EPIC-002 | 5 | KRITIEK | todo |
-| [US-007](stories/US-007-sprint-burndown.md) | Sprint Burndown | EPIC-002 | 3 | HOOG | todo |
-| [US-008](stories/US-008-search-backlog.md) | Search Backlog | EPIC-002 | 3 | HOOG | todo |
-| [US-009](stories/US-009-cross-references.md) | Cross-References | EPIC-002 | 2 | GEMIDDELD | todo |
-| [US-010](stories/US-010-item-templates.md) | Item Templates | EPIC-003 | 3 | HOOG | todo |
-| [US-011](stories/US-011-auto-index-update.md) | Auto INDEX Updates | EPIC-003 | 3 | KRITIEK | todo |
+| [US-001](backlog/stories/US-001-create-backlog-item.md) | Create New Backlog Item | EPIC-001 | 3 | KRITIEK | todo |
+| [US-002](backlog/stories/US-002-prioritize-backlog-items.md) | Prioritize with MoSCoW | EPIC-001 | 2 | HOOG | todo |
+| [US-003](backlog/stories/US-003-track-item-status.md) | Track Item Status | EPIC-001 | 2 | KRITIEK | todo |
+| [US-004](backlog/stories/US-004-plan-sprint.md) | Plan Sprint | EPIC-001 | 5 | HOOG | todo |
+| [US-005](backlog/stories/US-005-calculate-velocity.md) | Calculate Velocity | EPIC-001 | 3 | HOOG | todo |
+| [US-006](backlog/stories/US-006-generate-dashboard.md) | Generate Dashboard | EPIC-002 | 5 | KRITIEK | todo |
+| [US-007](backlog/stories/US-007-sprint-burndown.md) | Sprint Burndown | EPIC-002 | 3 | HOOG | todo |
+| [US-008](backlog/stories/US-008-search-backlog.md) | Search Backlog | EPIC-002 | 3 | HOOG | todo |
+| [US-009](backlog/stories/US-009-cross-references.md) | Cross-References | EPIC-002 | 2 | GEMIDDELD | todo |
+| [US-010](backlog/stories/US-010-item-templates.md) | Item Templates | EPIC-003 | 3 | HOOG | todo |
+| [US-011](backlog/stories/US-011-auto-index-update.md) | Auto INDEX Updates | EPIC-003 | 3 | KRITIEK | todo |
 | [US-012](stories/US-012-git-integration.md) | Git Integration | EPIC-003 | 4 | HOOG | todo |
 | [US-013](stories/US-013-validation-scripts.md) | Validation Scripts | EPIC-003 | 3 | GEMIDDELD | todo |
 
