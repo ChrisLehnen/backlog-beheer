@@ -4,10 +4,10 @@
 Een pragmatisch, file-based backlog management systeem voor solo programmeurs. Gebouwd op Markdown + YAML frontmatter met Git version control voor maximale simpliciteit en portabiliteit.
 
 ## Project Status
-- **Version:** v0.1 (Requirements & Design Phase)
+- **Version:** v0.2 (Requirements & Design Phase)
 - **Status:** Requirements Complete, Ready for Implementation
-- **Total Story Points:** 41
-- **Estimated Duration:** 8 sprints (16 weeks)
+- **Total Story Points:** 62
+- **Estimated Duration:** 11 sprints (22 weeks)
 
 ## Documentation Structure
 
@@ -22,6 +22,7 @@ Functionele en non-functionele requirements voor het systeem.
 | [REQ-004](backlog/requirements/REQ-004-template-automation.md) | Template System & Automation | functional | HOOG | EPIC-003 |
 | [REQ-005](backlog/requirements/REQ-005-search-navigation.md) | Search & Navigation | nonfunctional | GEMIDDELD | EPIC-002 |
 | [REQ-006](backlog/requirements/REQ-006-version-control.md) | Version Control & History | nonfunctional | HOOG | EPIC-003 |
+| [REQ-014](backlog/requirements/REQ-014-backlog-bootstrapper.md) | Backlog Bootstrapper | functional | KRITIEK | EPIC-006 |
 
 ### 🎯 Epics (`/backlog/epics/`)
 High-level features en business value.
@@ -31,6 +32,7 @@ High-level features en business value.
 | [EPIC-001](backlog/epics/EPIC-001-core-backlog-functionality.md) | Core Backlog Functionality | KRITIEK | 5 | 15 | todo |
 | [EPIC-002](backlog/epics/EPIC-002-visualization-reporting.md) | Visualization & Reporting | HOOG | 4 | 13 | todo |
 | [EPIC-003](backlog/epics/EPIC-003-automation-tooling.md) | Automation & Tooling | GEMIDDELD | 4 | 13 | todo |
+| [EPIC-006](backlog/epics/EPIC-006-project-initialization-bootstrapping.md) | Project Initialization | KRITIEK | 5 | 21 | backlog |
 
 ### 📝 User Stories (`/backlog/stories/`)
 Gedetailleerde implementatie stories met acceptance criteria.
@@ -50,6 +52,11 @@ Gedetailleerde implementatie stories met acceptance criteria.
 | [US-011](backlog/stories/US-011-auto-index-update.md) | Auto INDEX Updates | EPIC-003 | 3 | KRITIEK | todo |
 | [US-012](stories/US-012-git-integration.md) | Git Integration | EPIC-003 | 4 | HOOG | todo |
 | [US-013](stories/US-013-validation-scripts.md) | Validation Scripts | EPIC-003 | 3 | GEMIDDELD | todo |
+| [US-016](backlog/stories/US-016-cli-tool-creation.md) | CLI Tool Creation | EPIC-006 | 5 | KRITIEK | backlog |
+| [US-017](backlog/stories/US-017-template-repository-management.md) | Template Repository | EPIC-006 | 3 | KRITIEK | backlog |
+| [US-018](backlog/stories/US-018-project-type-profiles.md) | Project Type Profiles | EPIC-006 | 3 | HOOG | backlog |
+| [US-019](backlog/stories/US-019-configuration-customization.md) | Configuration Options | EPIC-006 | 5 | HOOG | backlog |
+| [US-020](backlog/stories/US-020-scaffolder-integration.md) | Scaffolder Integration | EPIC-006 | 5 | GEMIDDELD | backlog |
 
 ### 🔗 Traceability
 - [TRACEABILITY-MATRIX.md](TRACEABILITY-MATRIX.md) - Complete requirements to implementation mapping
@@ -65,11 +72,13 @@ Gedetailleerde implementatie stories met acceptance criteria.
 1. Start with [US-001](stories/US-001-create-backlog-item.md) - Foundation
 2. Follow story dependencies in order
 3. Each story has complete acceptance criteria and test cases
+4. New: [US-016](backlog/stories/US-016-cli-tool-creation.md) - Bootstrapper CLI
 
 ### For Project Managers
-1. Check story points total: 41 points
+1. Check story points total: 62 points
 2. Suggested velocity: 5-6 points per sprint
-3. Timeline: 8 sprints (16 weeks)
+3. Timeline: 11 sprints (22 weeks)
+4. New Epic: EPIC-006 for rapid project initialization
 
 ## Key Features
 
@@ -84,6 +93,7 @@ Gedetailleerde implementatie stories met acceptance criteria.
 - **Phase 1:** Core functionality (15 points)
 - **Phase 2:** Visualization (13 points)
 - **Phase 3:** Automation (13 points)
+- **Phase 4:** Bootstrapper (21 points) - NEW
 
 ## Technology Stack
 - **Storage:** Markdown files with YAML frontmatter
@@ -111,4 +121,4 @@ Gedetailleerde implementatie stories met acceptance criteria.
 - **Product Owner:** Priority and timeline
 
 ---
-*Generated: 2025-09-08 | Version: 0.1 | Status: Requirements Complete*
+*Generated: 2025-09-08 | Version: 0.2 | Status: Requirements Complete with Bootstrapper Extension*
